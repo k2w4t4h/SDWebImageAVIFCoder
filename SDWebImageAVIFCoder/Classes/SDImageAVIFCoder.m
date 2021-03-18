@@ -84,7 +84,7 @@
 
 // The AVIF encoding seems slow at the current time, but at least works
 - (BOOL)canEncodeToFormat:(SDImageFormat)format {
-    return format == SDImageFormatAVIF;
+    return false;
 }
 
 - (nullable NSData *)encodedDataWithImage:(nullable UIImage *)image format:(SDImageFormat)format options:(nullable SDImageCoderOptions *)options {
