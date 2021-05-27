@@ -37,5 +37,5 @@ Which is built based on the open-sourced libavif codec.
   s.private_header_files = 'SDWebImageAVIFCoder/Classes/Private/*.{h,m}'
   
   s.dependency 'SDWebImage', '~> 5.10'
-  s.dependency 'libavif/libdav1d', '>= 0.8'
+  s.dependency 'libavif/libdav1d-8bit', '>= 0.0.6'
 end
